@@ -3,7 +3,7 @@ This dataset contains the Corbetti Caldera, Sentinel-1 timeseries (processed usi
 
 **Processed Sentinel-1 InSAR timeseries over Corbetti Caldera**
 LiCSBAS (Morishita et al., 2020) run on Sentinel-1 interferograms processed by LiCSAR (avaliable through the COMET LiCSAR portal - https://comet.nerc.ac.uk/comet-lics-portal/) 
-InSAR displacement timeseries for unfiltered (cum.h5) and filtered (cum_filt.h5) data contain among others (for full dataset you can use h5disp in matlab):
+InSAR displacement timeseries for unfiltered (**cum.h5**) and filtered (**cum_filt.h5**) data contain among others (for full dataset you can use h5disp in matlab):
 coh_avg     :   Average coherence for all interferograms used (0-1)
 corner_lat  :   Latitude for clipped area corner
 corner_lon  :   Longitude for clipped area corner
@@ -15,7 +15,7 @@ post_lon    :   Longitude spacing
 refarea     :   Reference area/pixel identified by LiCSBAS
 vel         :   Velocity in mm/yr
  
-**Results from LiCSAlert, ICASAR package have been saved in ICAdata.mat, which contains**
+**Results from LiCSAlert, ICASAR package have been saved in _ICAdata.mat_, which contains**
 Dates:          dates of epochs            
 ICA_sources:    individual independent component sources
 ICA_TC:         individual independent component timecourses
