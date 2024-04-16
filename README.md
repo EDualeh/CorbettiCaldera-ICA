@@ -24,7 +24,7 @@ lons:           longitude information for clipped section
 Mask:           Mask used on data
 Unw_phase:      Mean for each epoch to be added back into data for reconstruction
 
-**Structural data used on Corbetti Caldera plots**
+**Structural data used on Corbetti Caldera plots** 
 _QGIS/Corbetti_Structures.shp contains_
 1. Awassa Caldera ridge
 2. Corbetti Caldera ridge
